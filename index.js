@@ -1,5 +1,4 @@
 const express= require('express');
-
 const app= express();
 
 app.use(express.json());
@@ -14,10 +13,8 @@ app.use(express.static(path.join(__dirname, "public")));
 const librosRouter=require("./routers/libros.router")
 //uso la ruta nueva
 app.use("/libros", librosRouter);
-
 //tambien se puede hacer :
 app.use("/libros", require ("./routers/libros.router"));
-
 //http://localhost:3000/
 //Para responder a la / y haya una respuesta debemos:
 
@@ -28,12 +25,10 @@ app.get('/', (req, res)=>{
 app.get('/factura', (req, res)=>{
     res.sendFile(path.join(__dirname, 'private', 'factura.html'))
 })
-
 //para que me devuelva todo el json
 app.get('/listado', (req, res)=> {
     res.sendFile(path.join(__dirname, 'listado.json'))
 })
-
 //Para que me devuelva solo una parte, un elemento del json
 app.get('/listado/:titulo', (req, res)=>{
     console.log(req.params.titulo);
