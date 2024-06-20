@@ -1,0 +1,452 @@
+[
+  {
+    "Título": "El principito",
+    "Resumen": "Un joven príncipe viaja por el universo y descubre el verdadero significado del amor y la amistad.",
+    "ISBN": 9780156012195,
+    "Editorial": "Harvest Books",
+    "Autor": "Antoine de Saint-Exupéry",
+    "Género": "Infantil",
+    "Imagen": "./public/ElPrincipito.webp"
+  },
+  {
+    "Título": "1984",
+    "Resumen": "En un mundo distópico controlado por un gobierno totalitario, un hombre desafía el sistema y lucha por la libertad y la verdad.",
+    "ISBN": 9780451524935,
+    "Editorial": "Signet Classic",
+    "Autor": "George Orwell",
+    "Género": "Ficción",
+    "Imagen": "./public/1984.webp"
+  },
+  {
+    "Título": "Cien años de soledad",
+    "Resumen": "La historia de la familia Buendía a lo largo de siete generaciones en el ficticio pueblo de Macondo, donde se entrelazan lo real y lo mágico.",
+    "ISBN": 9780307474728,
+    "Editorial": "Vintage Español",
+    "Autor": "Gabriel García Márquez",
+    "Género": "Realismo",
+    "Imagen": "./public/CienAñosdeSoledad.webp"
+  },
+  {
+    "Título": "Orgullo y prejuicio",
+    "Resumen": "La historia de amor entre Elizabeth Bennet y el Sr. Darcy en la Inglaterra del siglo XIX, donde la clase social y el orgullo juegan un papel crucial.",
+    "ISBN": 9780141439518,
+    "Editorial": "Penguin Classics",
+    "Autor": "Jane Austen",
+    "Género": "Novela",
+    "Imagen": "./public/OrgulloyPrejuicio.webp"
+  },
+  {
+    "Título": "Harry Potter y la piedra filosofal",
+    "Resumen": "Un joven mago descubre su verdadera identidad en el mundo mágico y se embarca en una emocionante aventura en la escuela de magia de Hogwarts.",
+    "ISBN": 9788498387544,
+    "Editorial": "Salamandra",
+    "Autor": "J.K. Rowling",
+    "Género": "Fantasía",
+    "Imagen": "./public/HarryPotter.webp"
+  },
+  {
+    "Título": "Don Quijote de la Mancha",
+    "Resumen": "Las aventuras de un caballero enloquecido y su fiel escudero Sancho Panza en la España del siglo XVII, que satiriza la sociedad y la cultura de la época.",
+    "ISBN": 9788426102951,
+    "Editorial": "Austral",
+    "Autor": "Miguel de Cervantes",
+    "Género": "Novela",
+    "Imagen": "./public/DonQuijotedelaMancha.webp"
+  },
+  {
+    "Título": "La sombra del viento",
+    "Resumen": "Un joven descubre un misterioso libro en el Cementerio de los Libros Olvidados y se adentra en una trama de secretos, misterios y amor en el Barcelona de posguerra.",
+    "ISBN": 9788408079545,
+    "Editorial": "Planeta",
+    "Autor": "Carlos Ruiz Zafón",
+    "Género": "Novela",
+    "Imagen": "./public/LaSombradelViento.webp"
+  },
+  {
+    "Título": "El señor de los anillos: La comunidad del anillo",
+    "Resumen": "Frodo Bolsón y un grupo de compañeros emprenden un peligroso viaje para destruir un anillo maligno y salvar la Tierra Media de la oscuridad.",
+    "ISBN": 9788445071409,
+    "Editorial": "Minotauro",
+    "Autor": "J.R.R. Tolkien",
+    "Género": "Fantasía",
+    "Imagen": "./public/ElSeñordelosAnillos.webp"
+  },
+  {
+    "Título": "Matar a un ruiseñor",
+    "Resumen": "La historia de la niña Scout Finch y su padre Atticus, un abogado que defiende a un hombre negro acusado injustamente de violación en la Alabama de los años 30.",
+    "ISBN": 9780061120084,
+    "Editorial": "Harper Perennial Modern Classics",
+    "Autor": "Harper Lee",
+    "Género": "Novela",
+    "Imagen": "./public/MataraunRuiseñor.webp"
+  },
+  {
+    "Título": "Crónica de una muerte anunciada",
+    "Resumen": "En un pequeño pueblo caribeño, los habitantes saben que alguien será asesinado, pero nadie hace nada para evitarlo, en una trama de honor, venganza y fatalidad.",
+    "ISBN": 9781400034956,
+    "Editorial": "Vintage Espanol",
+    "Autor": "Gabriel García Márquez",
+    "Género": "Realismo",
+    "Imagen": "./public/CrónicadeunaMuerteAnunciada.webp"
+  },
+  {
+    "Título": "El gran Gatsby",
+    "Resumen": "La historia del millonario Jay Gatsby y su obsesión por recuperar a su antiguo amor, Daisy Buchanan, en la glamurosa Nueva York de los años 20.",
+    "ISBN": 9788433902325,
+    "Editorial": "Anagrama",
+    "Autor": "F. Scott Fitzgerald",
+    "Género": "Novela",
+    "Imagen": "./public/ElGranGatsby.webp"
+  },
+  {
+    "Título": "Moby Dick",
+    "Resumen": "La travesía del capitán Ahab en busca de la ballena blanca Moby Dick, una épica historia sobre la obsesión, la venganza y la naturaleza humana.",
+    "ISBN": 9780142437247,
+    "Editorial": "Penguin Classics",
+    "Autor": "Herman Melville",
+    "Género": "Aventuras",
+    "Imagen": "./public/MobyDick.webp"
+  },
+  {
+    "Título": "Anna Karenina",
+    "Resumen": "La historia de Anna Karenina y su trágico romance con el Conde Vronsky, ambientada en la alta sociedad rusa del siglo XIX.",
+    "ISBN": 9780143035008,
+    "Editorial": "Penguin Classics",
+    "Autor": "León Tolstói",
+    "Género": "Novela",
+    "Imagen": "./public/AnnaKarenina.webp"
+  },
+  {
+    "Título": "Los miserables",
+    "Resumen": "La vida de Jean Valjean, un exconvicto que busca redimirse y encontrar la redención en la Francia del siglo XIX, mientras es perseguido por el implacable inspector Javert.",
+    "ISBN": 9780140444308,
+    "Editorial": "Penguin Classics",
+    "Autor": "Victor Hugo",
+    "Género": "Novela",
+    "Imagen": "./public/LosMiserables.webp"
+  },
+  {
+    "Título": "El alquimista",
+    "Resumen": "Santiago, un joven pastor, emprende un viaje en busca de su tesoro personal y descubre el verdadero significado de la vida y el destino.",
+    "ISBN": 9780062315007,
+    "Editorial": "HarperOne",
+    "Autor": "Paulo Coelho",
+    "Género": "Fantasía",
+    "Imagen": "./public/ElAlquimista.webp"
+  },
+  {
+    "Título": "El retrato de Dorian Gray",
+    "Resumen": "Dorian Gray, un joven aristócrata, hace un pacto con el diablo para conservar su belleza juvenil mientras su retrato envejece con sus pecados.",
+    "ISBN": 9780141442464,
+    "Editorial": "Penguin Classics",
+    "Autor": "Oscar Wilde",
+    "Género": "Gótica",
+    "Imagen": "./public/ElRetratodeDorian Gray.webp"
+  },
+  {
+    "Título": "Crimen y castigo",
+    "Resumen": "La historia de Raskólnikov, un estudiante atormentado por su crimen y su lucha por la redención en la Rusia del siglo XIX.",
+    "ISBN": 9780140449136,
+    "Editorial": "Penguin Classics",
+    "Autor": "Fiodor Dostoievski",
+    "Género": "Novela",
+    "Imagen": "./public/CrimenyCastigo.webp"
+  },
+  {
+    "Título": "Rayuela",
+    "Resumen": "La novela experimental de Cortázar que desafía la estructura narrativa tradicional y sigue los juegos mentales y las aventuras amorosas del protagonista en París y Buenos Aires.",
+    "ISBN": 9780307474728,
+    "Editorial": "Alfaguara",
+    "Autor": "Julio Cortázar",
+    "Género": "Novela",
+    "Imagen": "./public/Rayuela.webp"
+  },
+  {
+    "Título": "Drácula",
+    "Resumen": "La historia del Conde Drácula y su sed de sangre en la Inglaterra victoriana, contada a través de cartas, diarios y testimonios.",
+    "ISBN": 9780141439846,
+    "Editorial": "Penguin Classics",
+    "Autor": "Bram Stoker",
+    "Género": "Gótica",
+    "Imagen": "./public/Drácula.webp"
+  },
+  {
+    "Título": "La odisea",
+    "Resumen": "El épico viaje de Ulises de regreso a Ítaca después de la Guerra de Troya, enfrentándose a monstruos, dioses y tentaciones en su camino.",
+    "ISBN": 9780140268867,
+    "Editorial": "Penguin Classics",
+    "Autor": "Homero",
+    "Género": "Fantasía",
+    "Imagen": "./public/LaOdisea.webp"
+  },
+  {
+    "Título": "El nombre del viento",
+    "Resumen": "La historia de Kvothe, un joven músico y mago en busca de venganza y conocimiento en un mundo de magia y misterio.",
+    "ISBN": 9788415831438,
+    "Editorial": "Plaza & Janés",
+    "Autor": "Patrick Rothfuss",
+    "Género": "Fantasía",
+    "Imagen": "./public/ElNombredelViento.webp"
+  },
+  {
+    "Título": "El código Da Vinci",
+    "Resumen": "El profesor Robert Langdon sigue una serie de pistas en París y Londres para resolver un misterio centenario relacionado con el Santo Grial y los secretos del cristianismo.",
+    "ISBN": 9780307474278,
+    "Editorial": "Vintage Espanol",
+    "Autor": "Dan Brown",
+    "Género": "Misterio",
+    "Imagen": "./public/ElCódigoDaVinci.webp"
+  },
+  {
+    "Título": "El perfume",
+    "Resumen": "La historia de Jean-Baptiste Grenouille, un asesino en serie obsesionado con crear la fragancia perfecta, en el París del siglo XVIII.",
+    "ISBN": 9788432220693,
+    "Editorial": "Seix Barral",
+    "Autor": "Patrick Süskind",
+    "Género": "Novela",
+    "Imagen": "./public/ElPerfume.webp"
+  },
+  {
+    "Título": "La hoguera de las vanidades",
+    "Resumen": "La caída de un poderoso financiero en la Nueva York de los años 80, que enfrenta la codicia, el poder y la corrupción en su búsqueda del éxito.",
+    "ISBN": 9788497930008,
+    "Editorial": "Debolsillo",
+    "Autor": "Tom Wolfe",
+    "Género": "Novela",
+    "Imagen": "./public/LaHogueradelasVanidades.webp"
+  },
+  {
+    "Título": "La insoportable levedad del ser",
+    "Resumen": "La historia de amor y tragedia entre Tomas y Tereza, en un mundo donde la casualidad y la necesidad definen nuestras vidas.",
+    "ISBN": 9780061148521,
+    "Editorial": "Harper Perennial Modern Classics",
+    "Autor": "Milan Kundera",
+    "Género": "Novela",
+    "Imagen": "./public/LaInsoportableLevedaddelSer.webp"
+  },
+  {
+    "Título": "El amor en los tiempos de cólera",
+    "Resumen": "La historia del amor épico entre Fermina Daza y Florentino Ariza, que atraviesa décadas y desafía convenciones sociales en el Caribe colombiano.",
+    "ISBN": 9780307387265,
+    "Editorial": "Vintage Espanol",
+    "Autor": "Gabriel García Márquez",
+    "Género": "Novela",
+    "Imagen": "./public/ElAmorenlosTiemposdeCólera.webp"
+  },
+  {
+    "Título": "Los pilares de la Tierra",
+    "Resumen": "La construcción de una catedral en la Inglaterra del siglo XII es el telón de fondo de esta épica historia de amor, traición y ambición.",
+    "ISBN": 9780451225245,
+    "Editorial": "Penguin Books",
+    "Autor": "Ken Follett",
+    "Género": "Novela",
+    "Imagen": "./public/LosPilaresdelaTierra.webp"
+  },
+  {
+    "Título": "El arte de amar",
+    "Resumen": "Un ensayo sobre el amor y la seducción en la Roma antigua, que ofrece consejos y reflexiones sobre las relaciones humanas.",
+    "ISBN": 9789688530798,
+    "Editorial": "Fondo de Cultura Económica",
+    "Autor": "Ovidio",
+    "Género": "Gótica",
+    "Imagen": "./public/ElArtedeAmar.webp"
+  },
+  {
+    "Título": "La metamorfosis",
+    "Resumen": "La historia de Gregor Samsa, un hombre que se despierta un día transformado en un insecto y debe enfrentar las consecuencias de su nueva condición.",
+    "ISBN": 9780143105244,
+    "Editorial": "Penguin Books",
+    "Autor": "Franz Kafka",
+    "Género": "Novela",
+    "Imagen": "./public/LaMetamorfosis.webp"
+  },
+  {
+    "Título": "El club de la lucha",
+    "Resumen": "La historia de un joven insomne que forma un club clandestino de lucha para escapar de la alienación y el consumismo de la sociedad moderna.",
+    "ISBN": 9788497599271,
+    "Editorial": "Debolsillo",
+    "Autor": "Chuck Palahniuk",
+    "Género": "Misterio",
+    "Imagen": "./public/ElClubdelaLucha.webp"
+  },
+  {
+    "Título": "Memorias de África",
+    "Resumen": "La historia de Karen Blixen, una mujer danesa que encuentra el amor y la aventura en África, pero debe enfrentar la tragedia y la pérdida.",
+    "ISBN": 9788483461049,
+    "Editorial": "Debolsillo",
+    "Autor": "Isak Dinesen",
+    "Género": "Gótica",
+    "Imagen": "./public/MemoriasdeAfrica.webp"
+  },
+  {
+    "Título": "El médico",
+    "Resumen": "La historia de Rob J. Cole, un huérfano inglés que se convierte en médico en la Persia medieval y emprende un viaje épico en busca del conocimiento y la redención.",
+    "ISBN": 9788483461926,
+    "Editorial": "Debolsillo",
+    "Autor": "Noah Gordon",
+    "Género": "Novela",
+    "Imagen": "./public/ElMedico.webp"
+  },
+  {
+    "Título": "La ciudad y los perros",
+    "Resumen": "La historia de un grupo de jóvenes cadetes en una academia militar en Lima, Perú, y su lucha por sobrevivir en un entorno dominado por la corrupción y la violencia.",
+    "ISBN": 9788420672305,
+    "Editorial": "Alianza Editorial",
+    "Autor": "Mario Vargas Llosa",
+    "Género": "Novela",
+    "Imagen": "./public/LaCiudadylosPerros.webp"
+  },
+  {
+    "Título": "El laberinto de los espíritus",
+    "Resumen": "La última entrega de la saga del Cementerio de los Libros Olvidados, donde el inspector Daniel Sempere investiga un oscuro secreto familiar en la Barcelona de posguerra.",
+    "ISBN": 9788408186822,
+    "Editorial": "Planeta",
+    "Autor": "Carlos Ruiz Zafón",
+    "Género": "Gótica",
+    "Imagen": "./public/ElLaberintodelosEspiritus.webp"
+  },
+  {
+    "Título": "La naranja mecánica",
+    "Resumen": "La historia de Alex DeLarge, un joven delincuente que es sometido a un experimento de condicionamiento de la conducta en una sociedad distópica.",
+    "ISBN": 9780393312836,
+    "Editorial": "W. W. Norton & Company",
+    "Autor": "Anthony Burgess",
+    "Género": "Realismo",
+    "Imagen": "./public/LaNaranjaMecanica.webp"
+  },
+  {
+    "Título": "La historia interminable",
+    "Resumen": "La historia de Bastián Balthazar Bux, un niño que descubre un libro mágico que lo lleva a Fantasía, un mundo de aventuras y peligros sin fin.",
+    "ISBN": 9783522204314,
+    "Editorial": "Klett-Cotta",
+    "Autor": "Michael Ende",
+    "Género": "Fantasía",
+    "Imagen": "./public/LaHistoriaInterminable.webp"
+  },
+  {
+    "Título": "El juego de Ender",
+    "Resumen": "La historia de Ender Wiggin, un niño prodigio reclutado para entrenar en una academia militar espacial y liderar la lucha contra una invasión alienígena.",
+    "ISBN": 9788498729878,
+    "Editorial": "Zeta Bolsillo",
+    "Autor": "Orson Scott Card",
+    "Género": "Ficción",
+    "Imagen": "./public/ElJuegodeEnder.webp"
+  },
+  {
+    "Título": "El túnel",
+    "Resumen": "La historia de Juan Pablo Castel, un pintor obsesionado con María, una mujer que conoce en una exposición de arte y cuya vida destruye con sus celos y paranoia.",
+    "ISBN": 9788432231323,
+    "Editorial": "Seix Barral",
+    "Autor": "Ernesto Sabato",
+    "Género": "Novela",
+    "Imagen": "./public/ElTunel.webp"
+  },
+  {
+    "Título": "La isla del tesoro",
+    "Resumen": "La clásica historia de piratas y tesoros perdidos, donde el joven Jim Hawkins se embarca en una aventura para encontrar el legendario tesoro del capitán Flint.",
+    "ISBN": 9788491052721,
+    "Editorial": "Penguin Clásicos",
+    "Autor": "Robert Louis Stevenson",
+    "Género": "Aventura",
+    "Imagen": "./public/LaIsladelTesoro.webp"
+  },
+  {
+    "Título": "Viaje al centro de la Tierra",
+    "Resumen": "El profesor Otto Lidenbrock y su sobrino Axel emprenden un viaje al interior de la Tierra, descubriendo maravillas y peligros en lo más profundo del planeta.",
+    "ISBN": 9788420663945,
+    "Editorial": "Alianza Editorial",
+    "Autor": "Julio Verne",
+    "Género": "Aventura",
+    "Imagen": "./public/ViajealCentrodelaTierra.webp"
+  },
+  {
+    "Título": "Las minas del rey Salomón",
+    "Resumen": "Allan Quatermain lidera una expedición en busca de las legendarias minas del rey Salomón en África, enfrentándose a peligros naturales y humanos en su camino.",
+    "ISBN": 9788420616408,
+    "Editorial": "Alianza Editorial",
+    "Autor": "H. Rider Haggard",
+    "Género": "Aventura",
+    "Imagen": "./public/LasMinasdelReySalomon.webp"
+  },
+  {
+    "Título": "La vuelta al mundo en ochenta días",
+    "Resumen": "Phileas Fogg acepta el desafío de dar la vuelta al mundo en 80 días para ganar una apuesta, enfrentándose a obstáculos y aventuras en su viaje.",
+    "ISBN": 9788483461605,
+    "Editorial": "Debolsillo",
+    "Autor": "Julio Verne",
+    "Género": "Aventura",
+    "Imagen": "./public/LaVueltaalMundo.webp"
+  },
+  {
+    "Título": "Robinson Crusoe",
+    "Resumen": "La historia de un hombre naufragado en una isla desierta y su lucha por sobrevivir, enfrentándose a la soledad, la naturaleza y los peligros del mar.",
+    "ISBN": 9788420682144,
+    "Editorial": "Alianza Editorial",
+    "Autor": "Daniel Defoe",
+    "Género": "Aventura",
+    "Imagen": "./public/RobinsonCrusoe.webp"
+  },
+  {
+    "Título": "El misterio de Edwin Drood",
+    "Resumen": "La última novela de Charles Dickens, que sigue el misterio del asesinato de Edwin Drood y la búsqueda del culpable en un pequeño pueblo inglés.",
+    "ISBN": 9788437608465,
+    "Editorial": "Cátedra",
+    "Autor": "Charles Dickens",
+    "Género": "Misterio",
+    "Imagen": "./public/ElMisterio.webp"
+  },
+  {
+    "Título": "El asesinato de Roger Ackroyd",
+    "Resumen": "El detective Hercule Poirot investiga el asesinato de Roger Ackroyd en una tranquila villa inglesa, desentrañando secretos y revelaciones sorprendentes.",
+    "ISBN": 9788466327976,
+    "Editorial": "Debolsillo",
+    "Autor": "Agatha Christie",
+    "Género": "Misterio",
+    "Imagen": "./public/ElAsesinato.webp"
+  },
+  {
+    "Título": "El cuervo",
+    "Resumen": "Un poema macabro y misterioso sobre un hombre atormentado por la visita de un cuervo en medio de la noche.",
+    "ISBN": 9788484289737,
+    "Editorial": "Losada",
+    "Autor": "Edgar Allan Poe",
+    "Género": "Misterio",
+    "Imagen": "./public/ElCuervo.webp"
+  },
+  {
+    "Título": "El nombre de la rosa",
+    "Resumen": "Guillermo de Baskerville investiga una serie de misteriosos asesinatos en una abadía benedictina del siglo XIV, enfrentándose a intrigas políticas y disputas teológicas.",
+    "ISBN": 9788435010093,
+    "Editorial": "Edhasa",
+    "Autor": "Umberto Eco",
+    "Género": "Misterio",
+    "Imagen": "./public/ElNombredelaRosa.webp"
+  },
+  {
+    "Título": "Dune",
+    "Resumen": "La saga de Dune sigue las intrigas políticas y religiosas en el desierto del planeta Arrakis, donde la especia melange es la clave del poder galáctico.",
+    "ISBN": 9780441172719,
+    "Editorial": "Ace Books",
+    "Autor": "Frank Herbert",
+    "Género": "Ciencia Ficción",
+    "Imagen": "./public/Dune.webp"
+  },
+  {
+    "Título": "Neuromante",
+    "Resumen": "La historia de Case, un hacker cibernético, en un futuro distópico donde la inteligencia artificial y la realidad virtual son la norma.",
+    "ISBN": 9788445075331,
+    "Editorial": "Minotauro",
+    "Autor": "William Gibson",
+    "Género": "Ciencia Ficción",
+    "Imagen": "./public/Neuromante.webp"
+  },
+  {
+    "Título": "Solaris",
+    "Resumen": "La novela de Stanisław Lem sigue la investigación de un psicólogo en una estación espacial que orbita un planeta extraño con una inteligencia desconcertante.",
+    "ISBN": 9780156027601,
+    "Editorial": "Mariner Books",
+    "Autor": "Stanislaw Lem",
+    "Género": "Ciencia Ficción",
+    "Imagen": "./public/Solaris.webp"
+  }
+]
