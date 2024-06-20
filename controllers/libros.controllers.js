@@ -32,8 +32,9 @@ const show = (req, res)=>{
 
 const store = (req, res)=>{
     const {CodLibro, Titulo, ISBN, Editorial, AEscritura, AEdicion} = req.body;
-    const sql="INSERT INTO libro (CodLibro, Titulo, ISBN, Editorial, AEscritura, AEdicion) values (?, ?, ?, ?, ?,?)";
+    const sql='INSERT INTO libro(CodLibro, Titulo, ISBN, Editorial, AEscritura, AEdicion) VALUES (?, ?, ?, ?, ?, ?)';
     db.query(sql, [CodLibro, Titulo, ISBN, Editorial, AEscritura, AEdicion], (error,result)=>{
+        console.log(result);
         if (error) {
         console.log(error);
         return res.status(500).json({error: "Intente mas tarde"}); 
@@ -45,7 +46,7 @@ const store = (req, res)=>{
 };
 
 const update = (req, res) => {
-    const { CodLibro } = req.params; // Asegúrate de que este valor viene de los parámetros de la ruta
+    const { CodLibro } = req.params; 
     const { Titulo, ISBN, Editorial, AEscritura, AEdicion } = req.body;
 
     // Comprobación básica de los datos
@@ -53,7 +54,7 @@ const update = (req, res) => {
         return res.status(400).json({ error: "Todos los campos son obligatorios" });
     }
 
-    const sql = "UPDATE libro SET Titulo = ?, ISBN = ?, Editorial = ?, AEscritura = ?, AEdicion = ? WHERE CodLibro = ?";
+    const sql = 'UPDATE libro SET Titulo = ?, ISBN = ?, Editorial = ?, AEscritura = ?, AEdicion = ? WHERE CodLibro = ?';
     
     db.query(sql, [Titulo, ISBN, Editorial, AEscritura, AEdicion, CodLibro], (error, result) => {
         if (error) {
@@ -65,7 +66,7 @@ const update = (req, res) => {
             return res.status(404).json({ error: "No se encontró ningún libro para actualizar" });
         }
 
-        const libro = { CodLibro, Titulo, ISBN, Editorial, AEscritura, AEdicion }; // Usar los valores actualizados en la base de datos
+        const libro = { CodLibro, Titulo, ISBN, Editorial, AEscritura, AEdicion };
 
         res.json(libro);
     });
